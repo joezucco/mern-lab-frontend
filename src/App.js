@@ -61,8 +61,8 @@ function App() {
 
   //deleteBird
   const deleteBird = (bird) => {
-    fetch(url + "/brids/" + bird._id, {
-      method: "delete",
+    fetch(url + "/birds/" + bird._id, {
+      method: "DELETE",
     }).then(() => {
       getBirds();
     });
