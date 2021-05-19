@@ -33,7 +33,7 @@ const Display = (props) => {
 
     const loading = () => <h1>Loading...</h1>
 
-    return birds.length > 0 ? loaded() : loading
+    return birds.length > 0 ? loaded() : loading()
 }
 
 export default Display
