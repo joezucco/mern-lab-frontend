@@ -9,7 +9,7 @@ const Display = (props) => {
         <article key={bird._id}>
           <img src={bird.img} />
           <h1>{bird.name}</h1>
-          <h3>{bird.description}</h3>
+          <p>{bird.description}</p>
               <button 
             onClick={() => {
               selectBird(bird);
